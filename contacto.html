@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactate con nosotros</title>
+    <link rel="icon" href="img/manzana.png">
+    <link rel="stylesheet" href="styles.css">
+<body>
+    <div class="fondo">
+    <br>
+        <div class="enlaces"> 
+            <a href="index.html" class="nav">Byas te lleva a Nueva York</a> 
+            <a href="destinos.html" class="nav">Nuestros destinos</a> 
+            <a href="contacto.html" class="nav">Contactate con nosotros</a>
+        </div>
+    <br><hr>
+    <h1>Contactate con nosotros</h1>
+    <form action="ny.php" method="post" autocomplete="on" class="texto">
+        <label for="nombre">Nombre completo</label>
+        <br>
+        <input type="text" id="nombre" name="nombre" style="width: 40vw; font-size: 2vw; text-align: center;" required>
+        <br>
+        <label for="email">E-mail</label>
+        <br>
+        <input type="email" id="email" name="email" style="width: 40vw; font-size: 2vw; text-align: center;" required>
+        <br>
+        <label for="tel">Teléfono</label>
+        <br>
+        <input type="tel" id="tel" name="tel" style="width: 40vw; font-size: 2vw; text-align: center;" required>
+        <br>
+        <label for="destino">Destino de interés</label>
+        <br>
+        <select id="destino" name="destino" style="width: 40vw; font-size: 2vw; text-align: center;" required>
+            <option value="ny">Nueva York</option>
+            <option value="tk">Tokyo</option>
+            <option value="sz">Alpes Suizos</option>
+            <option value="in">Inglaterra</option>
+            <option value="fr">Francia</option>
+        </select>
+        <br>
+        <label for="mensaje">Dejanos tu consulta a continuación:</label>
+        <br>
+        <textarea id="mensaje" name="mensaje" rows="2" cols="40" style="width: 40vw; font-size: 2vw; text-align: center;" required></textarea><br>
+        <br>
+        <button type="reset" style="width: 20vw; font-size: 2vw;">Borrar</button>
+        <button type="submit" style="width: 20vw; font-size: 2vw;">Enviar</button>
+    </form>
+    <br>
+    <hr>
+    <footer class="texto">
+        <h4>Encontranos en las redes sociales como:</h4>
+        <p><a href="https://www.facebook.com/?locale=es_LA" target="_blank">Byas Turismo</a> en Facebook</p>
+        <p><a href="https://www.instagram.com/" target="_blank">byas.ar</a> en Instagram</p>
+        <p><a href="https://x.com/?lang=es" target="_blank">Byas Turismo</a> en Twitter</p>
+    </footer>
+    <br>
+    </div>
+</body>
+</html>
